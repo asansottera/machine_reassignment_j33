@@ -17,3 +17,6 @@
 
 # Binary files
 bin/*
+
+# Solution files
+sol_*.txt

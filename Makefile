@@ -54,7 +54,7 @@ LIBS=-L/opt/boost/stage/lib -lboost_program_options -lrt -lpthread -lglpk
 ifeq ($(TOOLS),intel)
 CXX=icpc
 DEP=icpc
-LINK=icpc -static
+LINK=icpc
 LINK_PROF=icpc
 DEPFLAGS=-std=c++0x
 CXXFLAGS_DBG=-O0 -g -std=c++0x -Wall -Wsign-compare -Wcheck -wd279 $(INCLUDE_DIRS)
@@ -64,7 +64,7 @@ CXXFLAGS_PROF=-O2 -g -xHost -std=c++0x -Wall -Wsign-compare -Wcheck -wd279 $(INC
 else
 CXX=g++
 DEP=g++
-LINK=g++ -static
+LINK=g++
 LINK_PROF=g++
 DEPFLAGS=-std=c++0x
 CXXFLAGS_DBG=-O0 -g -std=c++0x -Wall -Wsign-compare $(INCLUDE_DIRS)

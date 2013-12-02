@@ -11,3 +11,9 @@
 *.lai
 *.la
 *.a
+
+# Dependency files
+*.d
+
+# Binary files
+bin/*

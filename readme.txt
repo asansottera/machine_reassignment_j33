@@ -1,0 +1,1 @@
+Solver for ROADEF/EURO Challenge 2012. The problem, proposed by Google, deals with optimal re-assignment of processes to machines in a data center. This solver was developed by a team of PhD students of Politecnico di Milano (Andrea Sansottera, Luca Ferrucci, Nicola Calcavecchia, Filippo Sironi). All code is covered by the GPL v2 license.
